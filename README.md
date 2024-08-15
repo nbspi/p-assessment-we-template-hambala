@@ -1,11 +1,16 @@
 # **Practical Assessment**
-## **Lou Geh Manufacturing Company**
-Lou Geh manufacturing company produces products. The following product informationis stored: product name, product ID and quantity on hand. These products are madeup of many components. Each component can be supplied by one or more suppliers. Thefollowing component information is kept: component ID, name, description, suppliers who supply them, and products in which they are used.
-
-- A supplier can exist without providing components.
-- A component does not have to be associated with a supplier.
-- A component does not have to be associated with a product. Not all components are usedin products.
-- A product cannot exist without components.
+## **Lou Geh University**
+The Lou Geh University stores details about university students, courses, the semester a student took a particular course (and his mark and grade if he completed it), and what degree program each student is enrolled in. 
+Consider the following requirements list: 
+-	The university offers one or more courses.
+-	A course is made up of one or more subjects.
+-	A student must enroll in a course.
+-	A student takes the subjects that are part of her course.
+-	A course has a name, a course identifier, the total credit points required to graduate, and the year it commenced.
+-	A subject has a name, a subject identifier, a credit point value, and the year it commenced.
+-	Students have one or more given names, a surname, a student identifier, a date of birth, and the year they first enrolled. We can treat all given names as a single object—for example, “John Paul.”
+-	When a student takes a subject, the year and semester he attempted it are recorded. When he finishes the subject, a grade (such as A or B) and a mark (such as 60 percent) are recorded.
+-	Each subject in a course is sequenced into a year (for example, year 1) and a semester (for example, semester 1).
 
 
 ## **Task**
@@ -20,8 +25,7 @@ Lou Geh manufacturing company produces products. The following product informati
    2. DFD
 4. Provide a ```README.md``` containing the setup guide.
 5. The application should be published in Github via forked repository and for final version of your prototype you will need to create a ```Pull request``` in Github .
-6. You will send the Github link to us thru our email devops@biotechfarms.com on or before ```September 18 2023```.
-7. Actual assessment interview will be conducted on ```September 19 2023 @ 2:00 PM```.
+6. You will send the Github link to us thru our email devops@biotechfarms.com on or before ```August 19 2024```.
 
     ### **Directory structure**
     ```
